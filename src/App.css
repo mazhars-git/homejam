@@ -32,3 +32,18 @@ a{
   color: #fff;
   text-decoration: none;
 }
+.bg-color{
+  background-color: #0A0B1A;
+}
+.heading h2{
+  color: #fff;
+  position: relative
+}
+.heading h2::after{
+  position: absolute;
+  content: '';
+  display: block;
+  width: 80px;
+  margin-top: 8px;
+  border: 2px solid #0259EB;
+}

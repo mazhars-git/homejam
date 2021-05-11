@@ -1,3 +1,5 @@
+import { faSearch, faShoppingBag } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import logo from '../../../images/logo.png';
 
@@ -15,7 +17,7 @@ const MainMenu = () => {
                             
                             <ul className="navbar-nav ms-auto mb-lg-0">
                                 <li className="nav-item me-2">
-                                    <a className="nav-link text-white" aria-current="page" href="#">Search</a>
+                                    <a className="nav-link text-white" aria-current="page" href="#"><FontAwesomeIcon icon={faSearch} /> Search</a>
                                 </li>
                                 <li className="nav-item me-2">
                                     <a className="nav-link text-white" aria-current="page" href="#">Help</a>
@@ -24,7 +26,7 @@ const MainMenu = () => {
                                     <a className="nav-link text-white" href="#">Account</a>
                                 </li>
                                 <li className="nav-item me-2">
-                                    <a className="nav-link text-white" href="#">Disabled</a>
+                                    <a className="nav-link text-white" href="#"><FontAwesomeIcon icon={faShoppingBag} /></a>
                                 </li>
                             </ul>
                        

@@ -1,0 +1,16 @@
+.show-box{
+    box-shadow: 6px -6px rgb(77, 34, 179);
+    border-radius: 10px;
+}
+.show-content{
+    background: #111229;
+}
+.show-category{
+    background-color: yellow;
+    border-radius: 2px;
+    padding: 3px;
+    font-weight: 500;
+}
+.show-img{
+    width: 100%;
+}
