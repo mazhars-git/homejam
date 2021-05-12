@@ -1,0 +1,23 @@
+.countUp-section{
+    margin-top: 350px;
+}
+.countUp-content{
+    padding: 50px 0;
+}
+.counterBox{
+    border: 2px solid rebeccapurple;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    font-size: 18px;
+}
+.countUpIcon{
+    color: #fff;
+    font-size: 30px;
+}
+.countUpIcon:hover{
+    color: #0259EB;
+}

@@ -12,8 +12,26 @@ import Home from "./components/Home/Home/Home";
 
 function App() {
   return (
-    <div>
-      <Home></Home>
+    <div className="full-area">
+      <Router>
+        <Switch>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="*">
+            <h1 style={{
+              color: 'red', 
+              margin: '50px', 
+              textAlign: 'center', 
+              fontWeight: 'bold'}}>
+                Error, 404!! something went wrong.
+            </h1>
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
